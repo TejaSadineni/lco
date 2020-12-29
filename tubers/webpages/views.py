@@ -24,7 +24,6 @@ def about(request):
     return render(request,'webpages/about.html',data)
 
 def services(request):
-
     return render(request,'webpages/services.html')
 
 def contact(request):
